@@ -1,27 +1,33 @@
-h1 {
+* {
+  box-sizing: border-box;
+}
+h1 { 
     padding-top: 5px;
     padding-bottom: 10px;
-    float: center;
-    width: 100%;
-    background-color: skyblue;
-    text-align: center;
+    text-align: start;
+   background-color: skyblue;
+    width: 1000%;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
 }
 h2 {
+  padding-top: 5px;
+  padding-bottom: 10px;
     color: skyblue;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
-    text-align: left;
+    text-align: start;
+}
+.keen {
+  width: 1000px;
+  text-align: right;
 }
 .nav-link {
-  float: left;
-    font-size: 26px;
   margin: 0px;
   text-align: center;
-  
- 
+    font-size: 24px;
+    font-weight: bold;
 }
 h3 {
     color: white;

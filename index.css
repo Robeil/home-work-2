@@ -1,23 +1,31 @@
+* {
+    box-sizing: border-box;
+}
 h1 {
     padding-top: 5px;
     padding-bottom: 10px;
-    float: center;
-    width: 100%;
+    width: 1000%;
     background-color: skyblue;
-    text-align: center;
+    text-align: start;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
+}
+.keen {
+    width: 1000px;
+    text-align: right;
 }
 .img-fluid {
     height: auto;
     max-width: 100%;
 }
 h2 {
-    float: left;
+    padding-top: 5px;
+    padding-bottom: 10px;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: skyblue;
+    text-align: start;
 }
 h3 {
     color: white;
@@ -32,6 +40,7 @@ h3 {
     padding-bottom: 70px;
 }
 .nav-link {
+    margin: 0px;
     font-size: 24px;
     font-weight: bold;
 }
