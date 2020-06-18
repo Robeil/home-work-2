@@ -1,0 +1,10 @@
+h1 {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    text-align: center;
+    width: 30%;
+    background-color: skyblue;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+}

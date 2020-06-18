@@ -1,6 +1,6 @@
 h1 {
     padding-top: 5px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
     float: center;
     width: 100%;
     background-color: skyblue;
@@ -16,8 +16,10 @@ h2 {
     text-align: left;
 }
 .nav-link {
+  float: left;
     font-size: 26px;
   margin: 0px;
+  text-align: center;
   
  
 }
@@ -34,10 +36,16 @@ h3 {
           text-align: right;
    }
 
-.soli {
-background-color: tomato;
-width: 60%;
-}
 .navbar {
-background-color: tomato !important;
+text-align: center;
+}
+.form-group {
+  font-weight: bold;
+}
+.collapse {
+  float: left;
+
+}
+.para {
+  margin-bottom: 70px;
 }
