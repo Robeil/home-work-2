@@ -1,0 +1,43 @@
+h1 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    float: center;
+    width: 100%;
+    background-color: skyblue;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: white;
+}
+h2 {
+    color: skyblue;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+    text-align: left;
+}
+.nav-link {
+    font-size: 26px;
+  margin: 0px;
+  
+ 
+}
+h3 {
+    color: white;
+    background-color: gray;
+    text-align: center;
+    padding: 20px;
+}
+      li a:hover {
+        background-color:silver;
+      }
+      li {
+          text-align: right;
+   }
+
+.soli {
+background-color: tomato;
+width: 60%;
+}
+.navbar {
+background-color: tomato !important;
+}
