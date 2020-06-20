@@ -5,8 +5,8 @@ h1 {
     padding-top: 5px;
     padding-bottom: 10px;
     text-align: start;
-   background-color: skyblue;
     width: 1000%;
+   background-color: skyblue;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
@@ -14,6 +14,7 @@ h1 {
 h2 {
   padding-top: 5px;
   padding-bottom: 10px;
+  background-color: white;
     color: skyblue;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
@@ -21,7 +22,7 @@ h2 {
 }
 .keen {
   width: 1000px;
-  text-align: right;
+  text-align: start;
 }
 .nav-link {
   margin: 0px;
@@ -29,6 +30,7 @@ h2 {
     font-size: 24px;
     font-weight: bold;
 }
+
 h3 {
     color: white;
     background-color: gray;
@@ -50,8 +52,17 @@ text-align: center;
 }
 .collapse {
   float: left;
-
 }
 .para {
   margin-bottom: 70px;
+}
+.element-style {
+  background-color: white;
+  width: 1400px;
+  border: 1px snow silver;
+  margin: 60px;
+  margin-top: 50px;
+}
+.bg-light {
+  float: right;
 }
