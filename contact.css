@@ -2,14 +2,14 @@
   box-sizing: border-box;
 }
 h1 { 
+  background-color: skyblue;
     padding-top: 5px;
     padding-bottom: 10px;
-    text-align: start;
-    width: 1000%;
-   background-color: skyblue;
+    text-align: center;
     font-weight: bold;
     font-family: 'Oleo Script Swash Caps', cursive;
     color: white;
+    width: 100%;
 }
 h2 {
   padding-top: 5px;
@@ -20,8 +20,12 @@ h2 {
     font-family: 'Oleo Script Swash Caps', cursive;
     text-align: start;
 }
-.keen {
-  width: 1000px;
+h3 {
+  text-align: center;
+  background-color: skyblue;
+}
+.container {
+  width: 1400px;
   text-align: start;
 }
 .nav-link {
@@ -32,12 +36,7 @@ h2 {
     font-family: 'Oleo Script Swash Caps', cursive;
 }
 
-h3 {
-    color: white;
-    background-color: gray;
-    text-align: center;
-    padding: 20px;
-}
+
       li a:hover {
         background-color:silver;
       }
@@ -60,6 +59,7 @@ text-align: center;
   margin-bottom: 70px;
 }
 .element-style {
+  float: left;
   background-color: white;
   width: 1400px;
   border: 1px snow silver;
@@ -67,5 +67,5 @@ text-align: center;
   margin-top: 50px;
 }
 .bg-light {
-  float: right;
+  float: center;
 }
