@@ -29,6 +29,7 @@ h2 {
   text-align: center;
     font-size: 24px;
     font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
 }
 
 h3 {
@@ -49,6 +50,8 @@ text-align: center;
 }
 .form-group {
   font-weight: bold;
+  width: 1400px;
+
 }
 .collapse {
   float: left;

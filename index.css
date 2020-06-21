@@ -45,3 +45,12 @@ h3 {
     font-size: 24px;
     font-weight: bold;
 }
+.bg-light {
+    background-color: #f8f9fa!important;
+    float: right;
+}
+li {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
