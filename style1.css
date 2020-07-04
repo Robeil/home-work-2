@@ -38,3 +38,6 @@ footer {
    margin-inline-start: 200px;
    margin-inline-end: 200px;
   }
+  .bg-light {
+    background-color: skyblue;
+  }

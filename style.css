@@ -34,3 +34,10 @@ left: 0px;
   margin-inline-end: 100px;
  
 }
+.bg-light {
+  background-color: skyblue;
+}
+.nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  background-color: skyblue;
+}
+
