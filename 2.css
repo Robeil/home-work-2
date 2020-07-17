@@ -49,3 +49,10 @@ img {
     margin-inline-start: 100px;
     margin-inline-end: 100px;
   }
+  @media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .start-button {
+      clear: both;
+      width: 100%;
+    }
+  }
