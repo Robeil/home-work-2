@@ -1,0 +1,51 @@
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+
+    text-align: center;
+    width: 100%;
+} 
+h2 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+.nav-link {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 33px; 
+    color: black;
+    float: right;
+
+}
+p , ul {
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+}
+ {
+    
+}
+}
+footer {
+    background-color: skyblue;
+    text-align: center;
+}
+img {
+    width: 1320px;
+    height: 700px;
+    border-image: round;
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+}
+#footer {
+    background-color: skyblue;
+    text-align: center;
+    border: 1px solid white;
+   height: 70px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  margin-inline-end: 0px;
+  }
+  .element-style {
+    margin-inline-start: 100px;
+    margin-inline-end: 100px;
+  }
