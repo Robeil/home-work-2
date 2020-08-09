@@ -4,6 +4,7 @@ h1 {
   width: 100%;
   color: white;
 }
+
 p {
   font-size: larger;
 }
@@ -12,9 +13,11 @@ h2 {
   clear: both;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
+
 .keen {
   float: left;
 }
+
 #footer {
   background-color: skyblue;
   text-align: center;
@@ -29,6 +32,7 @@ h2 {
 }
 
 .form-group {
+
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
@@ -37,6 +41,7 @@ h2 {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
+
 .img-fluid {
   width: 60%;
   height: 50px;
@@ -45,17 +50,26 @@ h2 {
   margin-left: auto;
   margin-right: auto;
 }
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 a.nav-link {
   font-family: 'Oleo Script Swash Caps', cursive;
-  font-size: 33px; 
+  font-size: 33px;
   color: white;
   margin-bottom: 10px;
 }
+
 .navbar-toggle-icon {
   position: relative;
   display: inline-block;
   background-size: 100% 100%;
 }
+
 .navbar {
   position: relative;
   display: flex;
@@ -64,6 +78,7 @@ a.nav-link {
   justify-content: space-between;
   padding: .5rem 1rem;
 }
+
 .row {
   display: block;
   width: 100%;
@@ -72,39 +87,86 @@ a.nav-link {
   float: left;
 }
 
-.text { 
+.text {
   padding: 10px;
   text-align: center;
   background-color: skyblue;
   margin-bottom: 20px;
 }
+
 .img-day {
   display: block;
   width: 100%;
   height: 84%;
 }
-.text-day {
-  padding: 10px;
-  text-align: center;
-  background-color: skyblue;
-  margin-bottom: -10px;
+.img-quiz {
+  width: 100%;
+  height: 61%;
+}
+.img-5 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: -300px;
 }
 
+.text-day {
+  padding: 30px;
+  text-align: center;
+  background-color: skyblue;
+  height: 20px;
+}
 
 p, ul {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
-
+#submit {
+  width: 20%;
+  border: solid darkblue transparent;
+}
 @media screen and (max-width: 375px) {
-
-
   p, ul {
     margin-inline-start: auto;
     align-items: center;
   }
   .img-day {
-    height: 50%;
+    height: 70%;
   }
-  
+  .img-quiz {
+    width: 100%;
+    height: 54%;
   }
+  button {
+
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .text, .text-day {
+    width: 100%;
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 6px;
+    height: 20px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .form-group {
+    width: 80%;
+    margin-inline-start: 30px;
+    margin-inline-end: 10px;
+  }
+  .element-style, hr {
+  margin-inline-start: 30px;
+  width: 80%;
+  }
+p {
+  margin-inline-start: 30px;
+}
+}
