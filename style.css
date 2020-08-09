@@ -1,50 +1,110 @@
 h1 {
-
   font-family: 'Oleo Script Swash Caps', cursive;
   text-align: center;
   width: 100%;
+  color: white;
 }
-h2 {
-         font-family: 'Oleo Script Swash Caps', cursive;
+p {
+  font-size: larger;
 }
-.nav-link {
-         font-family: 'Oleo Script Swash Caps', cursive;
-         font-size: 33px;
 
-         color: black;
+h2 {
+  clear: both;
+  font-family: 'Oleo Script Swash Caps', cursive;
+}
+.keen {
+  float: left;
 }
 #footer {
   background-color: skyblue;
   text-align: center;
   border: 1px solid white;
- height: 70px;
- width: 100%;
- display: flex;
- justify-content: center;
-bottom: 0px;
-left: 0px;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  bottom: 0px;
+  left: 0px;
+  margin-inline-end: 0px;
 }
+
 .form-group {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
- 
 }
+
 .element-style {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
- 
 }
-.bg-light {
-  background-color: skyblue;
+.img-fluid {
+  width: 60%;
+  height: 50px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-.nav.navbar.navbar-expand-lg.navbar-light.bg-light {
-  background-color: skyblue;
+a.nav-link {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  font-size: 33px; 
+  color: white;
+  margin-bottom: 10px;
+}
+.navbar-toggle-icon {
+  position: relative;
+  display: inline-block;
+  background-size: 100% 100%;
+}
+.navbar {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: .5rem 1rem;
+}
+.row {
+  display: block;
+  width: 100%;
+  margin-left: -50px;
+  margin-right: auto;
+  float: left;
 }
 
-@media only screen and (max-width:500px) {
-  /* For mobile phones: */
-  .start-button {
-    clear: both;
-    width: 100%;
-  }
+.text { 
+  padding: 10px;
+  text-align: center;
+  background-color: skyblue;
+  margin-bottom: 20px;
 }
+.img-day {
+  display: block;
+  width: 100%;
+  height: 84%;
+}
+.text-day {
+  padding: 10px;
+  text-align: center;
+  background-color: skyblue;
+  margin-bottom: -10px;
+}
+
+
+p, ul {
+  margin-inline-start: 100px;
+  margin-inline-end: 100px;
+}
+
+@media screen and (max-width: 375px) {
+
+
+  p, ul {
+    margin-inline-start: auto;
+    align-items: center;
+  }
+  .img-day {
+    height: 50%;
+  }
+  
+  }
