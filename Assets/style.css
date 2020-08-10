@@ -5,34 +5,49 @@ h1 {
   color: white;
 }
 
-p {
-  font-size: larger;
-}
-
 h2 {
   clear: both;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
+h3 {
+  color: white;
+}
+li, p {
+  color: white;
+  font-size: 20px;
+}
+body {
+height: 100%;
+margin: 0;
+}
 
+.big {
+  opacity: 1.0;
+  background-image: url(http://thumbpress.com/wp-content/uploads/2013/05/Perfect-Timed-Photos-8.jpg);
+  position: relative;
+  min-height: 880px;
+  height: auto; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+
+}
 .keen {
   float: left;
 }
 
 #footer {
   background-color: skyblue;
+  position: fixed;
   text-align: center;
   border: 1px solid white;
-  height: 70px;
   width: 100%;
-  display: flex;
   justify-content: center;
-  bottom: 0px;
-  left: 0px;
-  margin-inline-end: 0px;
+  left: 0;
+  bottom: 0;
 }
 
 .form-group {
-
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
@@ -43,13 +58,16 @@ h2 {
 }
 
 .img-fluid {
-  width: 60%;
-  height: 50px;
+  
+  border-radius: 50%;
+  width: 500px;
+  height: 40px;
   position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
 img {
   width: 100%;
   height: auto;
@@ -57,6 +75,7 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
+
 a.nav-link {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 33px;
@@ -97,12 +116,14 @@ a.nav-link {
 .img-day {
   display: block;
   width: 100%;
-  height: 84%;
+  height: 77%;
 }
+
 .img-quiz {
   width: 100%;
-  height: 61%;
+  height: 59%;
 }
+
 .img-5 {
   position: relative;
   width: 100%;
@@ -122,10 +143,12 @@ p, ul {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
 }
+
 #submit {
   width: 20%;
   border: solid darkblue transparent;
 }
+
 @media screen and (max-width: 375px) {
   p, ul {
     margin-inline-start: auto;
@@ -138,8 +161,11 @@ p, ul {
     width: 100%;
     height: 54%;
   }
+  .img-fluid {
+    width: width 100%;
+    height: 30%;
+  }
   button {
-
     align-items: center;
   }
 }
@@ -156,6 +182,7 @@ p, ul {
     height: 20px;
   }
 }
+
 @media screen and (max-width: 375px) {
   .form-group {
     width: 80%;
@@ -163,10 +190,11 @@ p, ul {
     margin-inline-end: 10px;
   }
   .element-style, hr {
-  margin-inline-start: 30px;
-  width: 80%;
+    margin-inline-start: 30px;
+    width: 80%;
   }
-p {
-  margin-inline-start: 30px;
-}
+  p {
+    margin-inline-start: 30px;
+  }
+
 }
