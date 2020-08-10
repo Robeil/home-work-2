@@ -125,7 +125,7 @@ a.nav-link {
 
 .img-quiz {
   width: 100%;
-  height: 59%;
+  height: 58%;
 }
 
 .img-5 {
@@ -159,11 +159,11 @@ p, ul {
     align-items: center;
   }
   .img-day {
-    height: 70%;
+    height: 46%;
   }
   .img-quiz {
     width: 100%;
-    height: 54%;
+    height: 44%;
   }
   .img-fluid {
     width: width 100%;
@@ -200,5 +200,7 @@ p, ul {
   p {
     margin-inline-start: 30px;
   }
-
+h2 {
+  font-size: 5px;
+}
 }
