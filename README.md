@@ -8,3 +8,8 @@ I used bootstrap elements as the basic framework for each page: index.html: navb
 
 I added to the basic bootstrap styles with my own CSS styles.
 
+![image-20200809220934185](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809220934185.png)
+
+![image-20200809220954838](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809220954838.png)
+
+![image-20200809221015640](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809221015640.png)
