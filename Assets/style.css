@@ -2,18 +2,18 @@ h1 {
   font-family: 'Oleo Script Swash Caps', cursive;
   text-align: center;
   width: 100%;
-  color: white;
+  color: black;
 }
 
 
-h2 {
+h1, h2, h4, a, .nav-link {
   color: black;
   clear: both;
   font-family: 'Oleo Script Swash Caps', cursive;
 }
 h3 {
   font-family: 'Oleo Script Swash Caps', cursive;
-  color:white;
+  color:black;
 }
 li, p {
   font-family: 'Oleo Script Swash Caps', cursive;
@@ -38,6 +38,7 @@ margin: 0;
 }
 .keen {
   float: left;
+  font-size: 35px;
 }
 
 #footer {
@@ -52,7 +53,9 @@ margin: 0;
 }
 
 .form-group {
-  margin-inline-start: 100px;
+  width: 60%;
+  align-items: center;
+  margin-inline-start: 300px;
   margin-inline-end: 100px;
 }
 
@@ -83,11 +86,12 @@ img {
 a.nav-link {
   font-family: 'Oleo Script Swash Caps', cursive;
   font-size: 33px;
-  color: white;
+  color: black;
   margin-bottom: 10px;
 }
 
 .navbar-toggle-icon {
+  color: black;
   position: relative;
   display: inline-block;
   background-size: 100% 100%;
@@ -120,12 +124,12 @@ a.nav-link {
 .img-day {
   display: block;
   width: 100%;
-  height: 77%;
+  height: 78%;
 }
 
 .img-quiz {
   width: 100%;
-  height: 58%;
+  height: 59%;
 }
 
 .img-5 {
@@ -153,7 +157,17 @@ p, ul {
   border: solid darkblue transparent;
 }
 
-@media screen and (max-width: 375px) {
+.fa-linkedin {
+font-size: 1000px;
+}
+
+@media  screen and (max-width: 725px) {
+  body {
+    color: red;
+      }
+      .form-group {
+        margin-inline-start: 80px;
+      }
   p, ul {
     margin-inline-start: auto;
     align-items: center;
@@ -163,19 +177,24 @@ p, ul {
   }
   .img-quiz {
     width: 100%;
-    height: 44%;
+    height: 45%;
   }
+  
   .img-fluid {
-    width: width 100%;
-    height: 30%;
+    width: 50%;
+    height: 20%;
+    margin-inline-start: 45px;
+  }
+  .covid-img {
+    height: 47%;
   }
   button {
     align-items: center;
   }
 }
 
-@media screen and (max-width: 375px) {
-  .text, .text-day {
+@media screen and (max-width: 300px) {
+ .text-day,.navbar {
     width: 100%;
     border: none;
     padding: 15px 32px;
@@ -185,22 +204,22 @@ p, ul {
     font-size: 6px;
     height: 20px;
   }
+
 }
 
-@media screen and (max-width: 375px) {
+@media  screen and (max-width: 100px) {
+ 
   .form-group {
     width: 80%;
     margin-inline-start: 30px;
     margin-inline-end: 10px;
   }
-  .element-style, hr {
+  .element-style, hr, p {
     margin-inline-start: 30px;
     width: 80%;
   }
-  p {
-    margin-inline-start: 30px;
-  }
-h2 {
-  font-size: 5px;
+.keen, h2, li, p, .nav-lin, a {
+  font-size: 1rem;
+
 }
 }
