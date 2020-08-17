@@ -157,8 +157,8 @@ p, ul {
   border: solid darkblue transparent;
 }
 
-.fa-linkedin {
-font-size: 1000px;
+.fa-linkedin:before {
+font-size: 100px;
 }
 
 @media  screen and (max-width: 725px) {
