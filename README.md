@@ -1,44 +1,40 @@
-Name: Robeil Aregawi
-phone number: 206-602-5164
-Email: silukeen1@gmail.com
+# Name: Robeil Aregawi
+# phone number: 206-602-5164
+# Email: silukeen1@gmail.com
 
+Assignment name: Portfolio
 
-# Assignment name: Portfolio
+# Repo link: https://github.com/Robeil/portfolio-.git
+# Deployed link: https://robeil.github.io/portfolio-/
+-This is my first assignment and the aim was to build my own portfolio for the future. - I used HTML and CSS
 
-Repo link: https://github.com/Robeil/portfolio-.git
-Deployed link: https://robeil.github.io/portfolio-/
-      -This is my first assignment and the aim was to build my        own portfolio for the future.
-       - I used  HTML and CSS
-# Assignment name: JavaScript Quiz
+Assignment name: JavaScript Quiz
 
-Repo link: https://github.com/Robeil/javaScript-quiz.git
-Deployed link: https://robeil.github.io/javaScript-quiz/
+# Repo link: https://github.com/Robeil/javaScript-quiz.git
+# Deployed link: https://robeil.github.io/javaScript-quiz/
 The purpose of this app is to test someone's knowledge by asking the question and give them their result.
-I used HTML, CSS and  JAVASCRIPT .
-
+I used HTML, CSS and JAVASCRIPT .
 
 Group project
 
-# Project name : Covid Tracker 
-Repo link: https://github.com/ShepLT1/covid-tracker.git
-Deployed: https://sheplt1.github.io/covid-tracker/
+Project name : Covid Tracker
+
+# Repo link: https://github.com/ShepLT1/covid-tracker.git
+# Deployed: https://sheplt1.github.io/covid-tracker/
 The main use of the app is to provide the current information about coronavirus.
 We used HTML, CSS, JAVASCRIPT ,JQUERY AND OPEN WEATHER API
 My responsibility was in frontend
 
- # collaborators
+collaborators to Covid Tracker Project
 
-# Robeil Aregawi
-# Benjamin
-# Julee Butler
-# George
-# Luke
-# Sarah
+Robeil Aregawi
+Benjamin
+Julee Butler
+George
+Luke
+Sarah
 
-
-
-
-First responsive portfolio 
+First responsive portfolio
 
 Description
 
