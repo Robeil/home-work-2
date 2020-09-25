@@ -2,7 +2,7 @@
 ## phone number: 206-602-5164
 ## Email: silukeen1@gmail.com
 
-Assignment name: Portfolio
+## Assignment name: Portfolio
 
 ## Repo link: 
 https://github.com/Robeil/portfolio-.git
@@ -20,6 +20,9 @@ https://github.com/RobeiljavaScript-quiz.git
 
 ## Deployed link: 
 https://robeil.github.io/javaScript-quiz/
+
+## Description 
+
 The purpose of this app is to test someone's knowledge by asking the question and give them their result.
 I used HTML, CSS and JAVASCRIPT .
 
@@ -55,9 +58,10 @@ I used bootstrap elements as the basic framework for each page: index.html: navb
 I added to the basic bootstrap styles with my own CSS styles.
 
 # Screenshot 
-
-* Portfolio
-![portfolio](vscode-webview-resource://de867030-0c91-40b0-9e65-5df968d179ef/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%2812%29.png?version%3D1601005018064)
-* Contact
-![Contact](vscode-webview-resource://d2369243-0175-40b4-9c5e-21bf337d69ef/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%2811%29.png?version%3D1601005260566)
-*![about](vscode-webview-resource://f4bc8116-b9e3-4a6d-a41c-ce0dc956f0d2/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%289%29.png?version%3D1601005328535)
+   About
+* ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
+Portfolio
+* ![2020-08-09 (12)](https://user-images.githubusercontent.com/65261399/94224841-4ee7db00-fea8-11ea-9e80-fded27b3574c.png)
+Contact
+* ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
+ 
