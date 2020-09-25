@@ -1,26 +1,36 @@
-# Name: Robeil Aregawi
-# phone number: 206-602-5164
-# Email: silukeen1@gmail.com
+## Name: Robeil Aregawi
+## phone number: 206-602-5164
+## Email: silukeen1@gmail.com
 
 Assignment name: Portfolio
 
-# Repo link: https://github.com/Robeil/portfolio-.git
-# Deployed link: https://robeil.github.io/portfolio-/
+## Repo link: 
+https://github.com/Robeil/portfolio-.git
+
+## Deployed link: 
+https://robeil.github.io/portfolio-/
+
 -This is my first assignment and the aim was to build my own portfolio for the future. - I used HTML and CSS
 
-Assignment name: JavaScript Quiz
+## Assignment name: 
+JavaScript Quiz
 
-# Repo link: https://github.com/Robeil/javaScript-quiz.git
-# Deployed link: https://robeil.github.io/javaScript-quiz/
+## Repo link: 
+https://github.com/RobeiljavaScript-quiz.git
+
+## Deployed link: 
+https://robeil.github.io/javaScript-quiz/
 The purpose of this app is to test someone's knowledge by asking the question and give them their result.
 I used HTML, CSS and JAVASCRIPT .
 
-Group project
+## Group project
 
-Project name : Covid Tracker
+## Project name : Covid Tracker
 
-# Repo link: https://github.com/ShepLT1/covid-tracker.git
-# Deployed: https://sheplt1.github.io/covid-tracker/
+## Repo link : 
+https://github.com/ShepLT1/covid-tracker.git
+## Deployed: 
+https://sheplt1.github.io/covid-tracker/
 The main use of the app is to provide the current information about coronavirus.
 We used HTML, CSS, JAVASCRIPT ,JQUERY AND OPEN WEATHER API
 My responsibility was in frontend
@@ -28,11 +38,11 @@ My responsibility was in frontend
 collaborators to Covid Tracker Project
 
 Robeil Aregawi
-Benjamin
-Julee Butler
-George
-Luke
-Sarah
+* Benjamin
+* Julee Butler
+* George
+* Luke
+* Sarah
 
 First responsive portfolio
 
@@ -44,8 +54,10 @@ I used bootstrap elements as the basic framework for each page: index.html: navb
 
 I added to the basic bootstrap styles with my own CSS styles.
 
-![image-20200809220934185](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809220934185.png)
+# Screenshot 
 
-![image-20200809220954838](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809220954838.png)
-
-![image-20200809221015640](C:\Users\siluk\AppData\Roaming\Typora\typora-user-images\image-20200809221015640.png)
+* Portfolio
+![portfolio](vscode-webview-resource://de867030-0c91-40b0-9e65-5df968d179ef/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%2812%29.png?version%3D1601005018064)
+* Contact
+![Contact](vscode-webview-resource://d2369243-0175-40b4-9c5e-21bf337d69ef/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%2811%29.png?version%3D1601005260566)
+*![about](vscode-webview-resource://f4bc8116-b9e3-4a6d-a41c-ce0dc956f0d2/file///c%3A/Users/siluk/OneDrive/Desktop/Assignments/portfolio-/Assets/screenshot/2020-08-09%20%289%29.png?version%3D1601005328535)
