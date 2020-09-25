@@ -12,6 +12,15 @@ https://robeil.github.io/portfolio-/
 
 -This is my first assignment and the aim was to build my own portfolio for the future. - I used HTML and CSS
 
+# Screenshot of Portfolio
+   About
+* ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
+Portfolio
+* ![2020-08-09 (12)](https://user-images.githubusercontent.com/65261399/94224841-4ee7db00-fea8-11ea-9e80-fded27b3574c.png)
+Contact
+* ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
+ 
+
 ## Assignment name: 
 JavaScript Quiz
 
@@ -57,11 +66,3 @@ I used bootstrap elements as the basic framework for each page: index.html: navb
 
 I added to the basic bootstrap styles with my own CSS styles.
 
-# Screenshot 
-   About
-* ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
-Portfolio
-* ![2020-08-09 (12)](https://user-images.githubusercontent.com/65261399/94224841-4ee7db00-fea8-11ea-9e80-fded27b3574c.png)
-Contact
-* ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
- 
