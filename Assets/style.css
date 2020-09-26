@@ -5,7 +5,6 @@ h1 {
   color: black;
 }
 
-
 h1, h2, h4, a, .nav-link {
   color: black;
   clear: both;
@@ -37,8 +36,9 @@ margin: 0;
 
 }
 .keen {
+  
   float: left;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 #footer {
