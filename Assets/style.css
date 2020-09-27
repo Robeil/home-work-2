@@ -69,7 +69,8 @@ body {
   text-align: center;
   position: relative;
   height: 50px;
-  margin-top: 110px;
+  width: 100%;
+  margin-top: 385px;
   clear: both;
 }
 .form-group {
@@ -233,7 +234,7 @@ ul {
   }
 }
 
-@media screen and (max-width: 100px) {
+@media screen and (max-width: 300px) {
   .form-group {
     width: 80%;
     margin-inline-start: 30px;
@@ -252,5 +253,11 @@ ul {
   .nav-lin,
   a {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 100px) {
+  .card , .card-body , .card-text , h5 , h4 {
+    height: 10px;
+font-size: 10px;
   }
 }
