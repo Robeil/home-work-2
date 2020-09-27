@@ -1,22 +1,21 @@
-## Name: Robeil Aregawi
-## phone number: 206-602-5164
-## Email: silukeen1@gmail.com
+# Portfolio
 
-## Assignment name: Portfolio
-
-## Repo link: 
+## GitHub Repo link: 
 https://github.com/Robeil/portfolio-.git
 
 ## Deployed link: 
 https://robeil.github.io/portfolio-/
 
--This is my first assignment and the aim was to build my own portfolio for the future. - I used HTML and CSS
-
+## Tools used
+* HTML
+* CSS
+* Bootstrap frame work
 # Screenshot of Portfolio
    About
 * ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
 Portfolio
-* ![2020-08-09 (12)](https://user-images.githubusercontent.com/65261399/94224841-4ee7db00-fea8-11ea-9e80-fded27b3574c.png)
+* ![2020-09-27 (2)](https://user-images.githubusercontent.com/65261399/94378662-26e2bc80-00e0-11eb-956b-6a0692ed9eb5.png)
+
 Contact
 * ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
  
@@ -41,13 +40,9 @@ I used HTML, CSS and JAVASCRIPT .
 
 ## Repo link : 
 https://github.com/ShepLT1/covid-tracker.git
+
 ## Deployed: 
 https://sheplt1.github.io/covid-tracker/
-The main use of the app is to provide the current information about coronavirus.
-We used HTML, CSS, JAVASCRIPT ,JQUERY AND OPEN WEATHER API
-My responsibility was in frontend
-
-collaborators to Covid Tracker Project
 
 Robeil Aregawi
 * Benjamin
@@ -56,9 +51,7 @@ Robeil Aregawi
 * Luke
 * Sarah
 
-First responsive portfolio
-
-Description
+# Description
 
 This assignment involved using Bootstrap's mobile-first framework to create a responsive portfolio website. I was tasked with creating three pages: index.html, portfolio.html and contact.html.
 
