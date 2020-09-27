@@ -55,6 +55,23 @@ body {
   bottom: 0;
 }
 */
+#footer {
+  background-color: blue;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  margin-top: -50px;
+  clear: both;
+}
+
+#footer-contact {
+  background-color: blue;
+  text-align: center;
+  position: relative;
+  height: 50px;
+  margin-top: 110px;
+  clear: both;
+}
 .form-group {
   width: 60%;
   align-items: center;
@@ -65,7 +82,6 @@ body {
 .element-style {
   margin-inline-start: 100px;
   margin-inline-end: 100px;
-
 }
 
 .img-fluid {
