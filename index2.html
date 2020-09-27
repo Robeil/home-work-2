@@ -3,6 +3,7 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Portfolio</title>
 
 <head>
   <!--attaching bootstrap link and css link-->
@@ -34,7 +35,7 @@
         <h1>Robeil Aregawi</h1>
       </div>
       <!--the navbar of the header-->
-      <div class="collapse navbar-collapse" id="navbarNav">
+      <div class="collapse navbar-collapse float-left" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active">
             <a class="nav-link" href="#">Portfolio <span class="sr-only">(current)</span></a>
@@ -55,41 +56,130 @@
     <h2>Portfolio</h2>
     <hr>
   </div>
-  <!--use card for the pictures -->
+  <!--card for the picture of the Projects -->
   <div class="container">
     <div class="row">
       <div class="col-6">
-        <h4>Covid-19 Tracker</h4>
-        <img src=".\Assets\covid tracker.png" alt="JavaScript" class="covid-img" style="width:100%">
-        <h3 class="text"><a href="https://sheplt1.github.io/covid-tracker/"> <button
-              style="background-color: rgb(51, 184, 47);">Corona</button> </a>
-        </h3>
+        <div class="card">
+          <img src="./Assets/screenshot/covid tracker-2.png" class="card-img-top" alt="Job finder image">
+          <div class="card-body">
+            <!--name of the project-->
+            <h4 class="card-title">Name: Covid Tracker</h4>
+            <!--github repo link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://github.com/ShepLT1/covid-tracker.git">GitHub Repo</a></h5>
+            <!--deployed link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://sheplt1.github.io/covid-tracker/">Deployed link</a></h5>
+            <!--screen shoot-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="">Screen shoot</a></h5>
+            <p class="card-text"></p>
+          </div>
+        </div>
       </div>
+      <!--Job Finder Card-->
       <div class="col-6">
-        <h4>Work Day Scheduler</h4>
-        <img src=".\Assets\day planner.png" alt="Trivia Game" class="img-day">
-        <h3 class="text"><a href="https://robeil.github.io/day-planner/"> <button
-              style="background-color: rgb(51, 184, 47);">To do </button></a></h3>
+        <div class="card">
+          <img src="./Assets/screenshot/Job Finder.png" class="card-img-top" alt="Job finder image">
+          <div class="card-body">
+            <!--name of the project-->
+            <h4 class="card-title">Name: Job Finder</h4>
+            <p class="card-text"></p>
+            <!--github repo link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://github.com/saikitjk/JobFinder.git">GitHub Repo</a></h5>
+            <!--deployed link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://uw-jobfinder.herokuapp.com/">Deployed link</a></h5>
+            <!--screen shoot-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="">Screen shoot</a></h5>
+          </div>
+        </div>
       </div>
+      <!--Day Planner Card-->
       <div class="col-6">
-        <h4>JS Quiz</h4>
-        <img src=".\Assets\javascript quiz.jpg" alt="Rock Paper Scissors" class="img-quiz">
-        <h3 class="text"><a href="https://robeil.github.io/javaScript-quiz/"> <button
-              style="background-color: rgb(51, 184, 47);">JS Quiz</button></a></h3>
+        <div class="card">
+          <img src="./Assets/screenshot/day-planner-1.png" class="card-img-top" alt="Day Planner image">
+          <div class="card-body">
+            <h4 class="card-title">Name: Day Planner</h4>
+            <p class="card-text"></p>
+            <!--github repo link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://github.com/Robeil/day-planner.git">GitHub Repo</a></h5>
+            <!--deployed link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://robeil.github.io/day-planner/">Deployed link</a></h5>
+            <!--screen shoot-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="">Screen shoot</a></h5>
+          </div>
+        </div>
       </div>
+      <!--JavaScript Quiz Card-->
       <div class="col-6">
-        <h4>Info Widget</h4>
-        <img src=".\Assets\robeil lyft (2).jpg" alt="Rock Paper Scissors" style="width:100%">
-        <h3 class="text"> <button style="background-color: rgb(51, 184, 47);">Info</button></h3>
+        <div class="card">
+          <img src="./Assets/screenshot/Quiz-1.png" class="card-img-top" alt="JavaScript Quiz Image">
+          <div class="card-body">
+            <h4 class="card-title">Name: Quiz generator</h4>
+            <p class="card-text"></p>
+            <!--github repo link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"><path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://github.com/Robeil/javaScript-quiz.git">GitHub Repo</a></h5>
+            <!--deployed link-->
+            <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+                xmlns="http://www.w3.org/2000/svg"><path
+                  d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+              </svg><a href="https://robeil.github.io/javaScript-quiz/" </a>Deployed link</h5>
+           <!--screen shoot-->
+           <h5><svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-forward-fill" fill="currentColor"
+            xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M9.77 12.11l4.012-2.953a.647.647 0 0 0 0-1.114L9.771 5.09a.644.644 0 0 0-.971.557V6.65H2v3.9h6.8v1.003c0 .505.545.808.97.557z" />
+          </svg><a href="">Screen shoot</a></h5>
+          </div>
+        </div>
       </div>
     </div>
-    <br>
-    <!--footer-->
-    <footer class="navar-dark bg-primary" id="footer">
+  </div>
+  <br>
+
+  <!--footer-->
+  <!--<footer class="navar-dark bg-primary" id="footer">
       <div>
         <h3>©Copyright</h3>
       </div>
-    </footer>
+    </footer>-->
 </body>
 
 </html>
