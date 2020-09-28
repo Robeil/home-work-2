@@ -6,11 +6,18 @@ https://github.com/Robeil/portfolio-.git
 ## Deployed link: 
 https://robeil.github.io/portfolio-/
 
+## Description 
+
+This website is created to store my personal progress in the IT career and show some of my work in this department.
+
+
 ## Tools used
 * HTML
 * CSS
 * Bootstrap frame work
+
 # Screenshot of Portfolio
+
    About
 * ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
 Portfolio
@@ -18,7 +25,17 @@ Portfolio
 
 Contact
 * ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
+
+# User Story
+```
+As a student of Bootcamp in Washington university,
+I have to create my Portfolio to show the community,
+What I am learning in the moment.
+```
  
+## Inside my Portfolio:
+
+I included two projects and two personal Assignments so far
 
 ## Assignment name: 
 JavaScript Quiz
@@ -28,11 +45,6 @@ https://github.com/RobeiljavaScript-quiz.git
 
 ## Deployed link: 
 https://robeil.github.io/javaScript-quiz/
-
-## Description 
-
-The purpose of this app is to test someone's knowledge by asking the question and give them their result.
-I used HTML, CSS and JAVASCRIPT .
 
 ## Group project
 
