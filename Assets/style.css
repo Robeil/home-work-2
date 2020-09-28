@@ -4,10 +4,13 @@ h1 {
   width: 100%;
   color: black;
 }
- .navbar {
+.navbar {
   background-color: ;
 }
-h2, h4, a, .nav-link {
+h2,
+h4,
+a,
+.nav-link {
   color: black;
   clear: both;
   font-family: "Oleo Script Swash Caps", cursive;
@@ -16,7 +19,8 @@ h3 {
   font-family: "Oleo Script Swash Caps", cursive;
   color: black;
 }
-li, p {
+li,
+p {
   font-family: "Oleo Script Swash Caps", cursive;
   color: black;
   font-size: 35px;
@@ -42,8 +46,7 @@ li, p {
   margin-inline-end: 100px;
 }
 
-
-/* about img*/ 
+/* about img*/
 .img-fluid {
   border-radius: 50%;
   width: 500px;
@@ -59,33 +62,45 @@ li, p {
   border: solid darkblue transparent;
 }
 .footer {
-text-align: center;
-
+  text-align: center;
 }
 /*card*/
 .card {
-  
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-right: 10px;
-    margin-left: 10px;
-  
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
-/*card small screen*/
+/*small screen 600px*/
 @media only screen and (max-width: 600px) {
-  .card, .card-text, h4 , h5, a {
+  .card, .card-text,
+ h5, a {
+    font-size: 12px;
+  }
+  .card-title  {
     font-size: 15px;
   }
-}
-/*form message small screen*/
-@media only screen and (max-width: 600px) {
+  p, li {
+    font-size: 20px;
+  }
   .form-group {
-  margin-inline-start: 80px;
-  align-items: center;
+    margin-inline-start: 80px;
+    align-items: center;
+  }
+  #submit {
+    width: auto;
   }
 }
+/* x small 320px*/
 @media only screen and (max-width: 600px) {
- #submit {
-  width: auto;
-  }
+.card-text , h5, a  {
+  font-size: 8px;
+}
+.card-title {
+  font-size: 10px;
+}
+.form-group {
+  margin-inline-start: 60px;
+  align-items: center;
+}
 }
