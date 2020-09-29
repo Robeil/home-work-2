@@ -19,12 +19,15 @@ This website is created to store my personal progress in the IT career and show 
 # Screenshot of Portfolio
 
    About
-* ![2020-08-09 (8)](https://user-images.githubusercontent.com/65261399/94224710-fb758d00-fea7-11ea-9867-e440d66af39a.png)
-Portfolio
-* ![2020-09-27 (2)](https://user-images.githubusercontent.com/65261399/94378662-26e2bc80-00e0-11eb-956b-6a0692ed9eb5.png)
+* ![2020-09-28 (4)](https://user-images.githubusercontent.com/65261399/94508321-9206be80-01c6-11eb-9a18-9fe073936575.png)
 
 Contact
-* ![2020-08-09 (10)](https://user-images.githubusercontent.com/65261399/94224779-265fe100-fea8-11ea-8fa4-77c0b1a6c45f.png)
+* ![2020-09-28 (3)](https://user-images.githubusercontent.com/65261399/94508270-6f74a580-01c6-11eb-9679-b2043638dab3.png)
+
+
+Portfolio
+* ![2020-09-28 (5)](https://user-images.githubusercontent.com/65261399/94508363-b2cf1400-01c6-11eb-8ac9-57a1667a1f40.png)
+
 
 # User Story
 ```
