@@ -5,7 +5,7 @@ h1 {
   color: black;
 }
 .navbar {
-  background-color: ;
+  background-color: rgb(228, 222, 219);
 }
 h2,
 h4,
@@ -23,7 +23,15 @@ li,
 p {
   font-family: "Oleo Script Swash Caps", cursive;
   color: black;
-  font-size: 35px;
+  font-size: 20px;
+}
+/*resume download or click able*/
+.resume {
+  float: right;
+  margin-top: -40px;
+}
+.element-style {
+  margin-top: px;
 }
 
 /*body background*/
@@ -37,6 +45,27 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
+/*detail text*/
+.detail-text, .w-50 {
+  margin-bottom: 40px;
+  position: absolute;
+  float: right;
+  top: -600px;
+}
+/*text about*/
+.text-about {
+  position: absolute;
+  float: right;
+  top: 500px;
+}
+
+/*about img*/
+
+.about-img {
+  margin-inline-start: 300px;  
+  float: left;
+
+}
 
 /*contact form*/
 .form-group {
@@ -46,7 +75,6 @@ p {
   margin-inline-end: 100px;
 }
 
-/* about img*/
 .img-fluid {
   border-radius: 50%;
   width: 500px;
@@ -61,9 +89,6 @@ p {
   width: 20%;
   border: solid darkblue transparent;
 }
-.footer {
-  text-align: center;
-}
 /*card*/
 .card {
   margin-top: 20px;
@@ -71,14 +96,27 @@ p {
   margin-right: 10px;
   margin-left: 10px;
 }
+/*card text*/
+.card-text {
+  margin-top: 40px;
+}
+/*icons*/
+.nav {
+align-items: center;
+margin-inline-start: 800px;
+}
+
+.text-about {
+  width: px;
+}
 /*small screen 600px*/
 @media only screen and (max-width: 600px) {
   .card, .card-text,
  h5, a {
-    font-size: 12px;
+    font-size: 10px;
   }
   .card-title  {
-    font-size: 15px;
+    font-size: 11px;
   }
   p, li {
     font-size: 20px;
@@ -92,9 +130,12 @@ p {
   }
 }
 /* x small 320px*/
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 320px) {
 .card-text , h5, a  {
   font-size: 8px;
+}
+.about-img {
+  margin-inline-start: 0px;
 }
 .card-title {
   font-size: 10px;
@@ -102,5 +143,9 @@ p {
 .form-group {
   margin-inline-start: 60px;
   align-items: center;
+}
+.icon, img {
+  align-items: center;
+  font-size: 10px; 
 }
 }
