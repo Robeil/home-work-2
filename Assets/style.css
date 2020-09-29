@@ -46,18 +46,19 @@ p {
   background-size: cover;
 }
 /*detail text*/
+/*
 .detail-text,
 .w-50 {
   margin-bottom: 40px;
   position: absolute;
   float: right;
   top: -600px;
-}
+}*/
 /*text about*/
 .text-about {
-  position: absolute;
+
   float: right;
-  top: 500px;
+  top: 50px;
 }
 
 /*about img*/
@@ -97,19 +98,23 @@ p {
   margin-left: 10px;
 }
 /*card text*/
+/*
 .card-text {
   margin-top: 40px;
   width: 100px;
-}
+}*/
 /*icons*/
 .nav {
+  margin-top: 400px;
   align-items: center;
-  margin-inline-start: 800px;
+  margin-inline-end: 10px;
+  float: right;
 }
 
 .text-about {
   width: px;
 }
+
 /*small screen 600px*/
 @media only screen and (max-width: 600px) {
   .card,
