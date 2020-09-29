@@ -46,7 +46,8 @@ p {
   background-size: cover;
 }
 /*detail text*/
-.detail-text, .w-50 {
+.detail-text,
+.w-50 {
   margin-bottom: 40px;
   position: absolute;
   float: right;
@@ -62,9 +63,8 @@ p {
 /*about img*/
 
 .about-img {
-  margin-inline-start: 300px;  
+  margin-inline-start: 300px;
   float: left;
-
 }
 
 /*contact form*/
@@ -102,8 +102,8 @@ p {
 }
 /*icons*/
 .nav {
-align-items: center;
-margin-inline-start: 800px;
+  align-items: center;
+  margin-inline-start: 800px;
 }
 
 .text-about {
@@ -111,14 +111,17 @@ margin-inline-start: 800px;
 }
 /*small screen 600px*/
 @media only screen and (max-width: 600px) {
-  .card, .card-text,
- h5, a {
+  .card,
+  .card-text,
+  h5,
+  a {
     font-size: 10px;
   }
-  .card-title  {
+  .card-title {
     font-size: 11px;
   }
-  p, li {
+  p,
+  li {
     font-size: 20px;
   }
   .form-group {
@@ -128,24 +131,47 @@ margin-inline-start: 800px;
   #submit {
     width: auto;
   }
+  .text-about,
+  h3,
+  li {
+    font-size: 10px;
+  }
+  .detail-text,
+  .w-50 {
+    font-size: 8px;
+  }
+  .about-img {
+    margin-inline-start: 0px;
+  }
+  .card .w-50 .detail-text-1 {
+    font-size: 8px;
+    margin-top: -10px;
+  }
+  .det
 }
 /* x small 320px*/
 @media only screen and (max-width: 320px) {
-.card-text , h5, a  {
-  font-size: 8px;
-}
-.about-img {
-  margin-inline-start: 0px;
-}
-.card-title {
-  font-size: 10px;
-}
-.form-group {
-  margin-inline-start: 60px;
-  align-items: center;
-}
-.icon, img {
-  align-items: center;
-  font-size: 10px; 
-}
+  .card-text,
+  h5,
+  a {
+    font-size: 8px;
+  }
+  .about-img {
+    margin-inline-start: 0px;
+  }
+  .card-title, h3 {
+    font-size: 8px;
+  }
+  .form-group {
+    margin-inline-start: 60px;
+    align-items: center;
+  }
+  .icon,
+  img {
+    
+    align-items: center;
+    width: 0px;
+    font-size: 2px;
+  }
+ 
 }
