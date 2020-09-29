@@ -99,6 +99,7 @@ p {
 /*card text*/
 .card-text {
   margin-top: 40px;
+  width: 100px;
 }
 /*icons*/
 .nav {
@@ -136,31 +137,20 @@ p {
   li {
     font-size: 10px;
   }
-  .detail-text,
-  .w-50 {
-    font-size: 8px;
-  }
+  
   .about-img {
     margin-inline-start: 0px;
   }
-  .card .w-50 .detail-text-1 {
-    font-size: 8px;
+  .card .w-50 {
     margin-top: -10px;
   }
-  .det
+  
 }
 /* x small 320px*/
 @media only screen and (max-width: 320px) {
-  .card-text,
-  h5,
-  a {
-    font-size: 8px;
-  }
+  
   .about-img {
     margin-inline-start: 0px;
-  }
-  .card-title, h3 {
-    font-size: 8px;
   }
   .form-group {
     margin-inline-start: 60px;
@@ -168,10 +158,18 @@ p {
   }
   .icon,
   img {
-    
+
     align-items: center;
     width: 0px;
     font-size: 2px;
   }
- 
+  .card, .w-50, .detail-text {
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+  }
+
 }
+
