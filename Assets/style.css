@@ -45,15 +45,7 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
 }
-/*detail text*/
-/*
-.detail-text,
-.w-50 {
-  margin-bottom: 40px;
-  position: absolute;
-  float: right;
-  top: -600px;
-}*/
+
 /*text about*/
 .text-about {
 
@@ -97,15 +89,10 @@ p {
   margin-right: 10px;
   margin-left: 10px;
 }
-/*card text*/
-/*
-.card-text {
-  margin-top: 40px;
-  width: 100px;
-}*/
+
 /*icons*/
 .nav {
-  margin-top: 400px;
+  margin-top: 00px;
   align-items: center;
   margin-inline-end: 10px;
   float: right;
@@ -114,7 +101,16 @@ p {
 .text-about {
   width: px;
 }
-
+#footer {
+  background-color: rgb(228, 222, 219);
+  position: fixed;
+  text-align: center;
+  border: 1px solid white;
+  width: 100%;
+  justify-content: center;
+  left: 0;
+  bottom: 0;
+}
 /*small screen 600px*/
 @media only screen and (max-width: 600px) {
   .card,
