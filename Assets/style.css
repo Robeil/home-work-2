@@ -1,3 +1,4 @@
+  
 h1 {
   font-family: "Oleo Script Swash Caps", cursive;
   text-align: center;
@@ -40,12 +41,13 @@ li, p {
 
 /*body background*/
 .big {
-  opacity: 1;
+  /* opacity: 1; */
   background-image: url(http://thumbpress.com/wp-content/uploads/2013/05/Perfect-Timed-Photos-8.jpg);
-  position: relative;
+  /* position: relative;
   min-height: 100%;
-  height: 100%;
-  background-position: center;
+  height: 100%; */
+  background-size: 100% 100%;
+  /* background-position: center; */
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -64,9 +66,9 @@ li, p {
 
 /*contact form*/
 .form-group {
-  width: 60%;
+  width: 80%;
   align-items: center;
-  margin-inline-start: 550px;
+  margin-inline-start: 50px;
   margin-inline-end: 100px;
 }
 /*contact form*/
@@ -136,6 +138,7 @@ li, p {
   .form-group {
     margin-inline-start: 80px;
     align-items: center;
+    margin-inline-start: 50px;
   }
   #submit {
     width: auto;
@@ -181,3 +184,18 @@ li, p {
     overflow: scroll;
   }
 }
+@media only screen and (max-width: 375px) {
+  .form-group {
+    margin-inline-start: 30px;
+    align-items: center;
+    float: left;
+  }
+  
+}
+/* 1024 pm max or more */
+@media only screen and (min-width: 1024px) {
+  .form-group {
+    margin-inline-start: 100px;
+    margin-inline-end: 10px;
+  }
+  }
