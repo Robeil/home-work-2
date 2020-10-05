@@ -43,11 +43,9 @@ I included two projects and two personal Assignments so far
 ## Assignment name: 
 JavaScript Quiz
 
-## Repo link: 
-https://github.com/RobeiljavaScript-quiz.git
+## ![Repo link](https://github.com/RobeiljavaScript-quiz.git)
 
-## Deployed link: 
-https://robeil.github.io/javaScript-quiz/
+## ![Deployed link](https://robeil.github.io/javaScript-quiz/)
 
 ## Group project
 
