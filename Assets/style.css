@@ -6,6 +6,7 @@ h1 {
   color: black;
 }
 .navbar {
+  width: 100%;
   background-color: rgb(228, 222, 219);
 }
 
