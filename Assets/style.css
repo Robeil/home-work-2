@@ -9,7 +9,11 @@ h1 {
   width: 100%;
   background-color: rgb(228, 222, 219);
 }
-
+li, p {
+  font-family: 'Oleo Script Swash Caps', cursive;
+  color:white;
+  font-size: 35px;
+}
 h1, h2, h4, a, .nav-link {
   color: black;
   clear: both;
