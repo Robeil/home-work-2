@@ -200,7 +200,7 @@ li, p {
 /* 1024 pm max or more */
 @media only screen and (min-width: 1024px) {
   .form-group {
-    margin-inline-start: 100px;
+    margin-inline-start: 170px;
     margin-inline-end: 10px;
   }
   }
